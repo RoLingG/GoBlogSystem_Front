@@ -1,0 +1,38 @@
+body {
+    --bgColor: #e0dddd;
+    --head-tab-color: #fff;
+    --containColor: #e0dddd;
+    --active: #4080FF;
+    --collapse-button: #165DFF;
+    --collapse-color: #fff;
+    --dropline-color: #c4c1c1;
+    --login-background: url(/src/assets/background.png);
+    --login-side-background: rgba(255, 255, 255, 0.75);
+    --text-color: #606060;
+    --charts_color1: #d97559;
+    --charts_color2: #d5d959;
+    --icon: #232324;
+    --icon_border: #606060;
+    --icon_border_bg: #fff;
+    --webBgColor: #f1f1f1;
+
+    --container_width: 1400px;
+}
+
+body[arco-theme='dark'] {
+    --bgColor: #3b3b3b;
+    --head-tab-color: #232324;
+    --containColor: #484848;
+    --collapse-button: #fff;
+    --collapse-color: #232324;
+    --dropline-color: #a8a7a7;
+    --login-background: url(/src/assets/background-dark.png);
+    --login-side-background: rgba(54, 54, 54, 0.75);
+    --text-color: #fff;
+    --charts_color1: #59d9d9;
+    --charts_color2: #d55caa;
+    --icon: #fff;
+    --icon_border: #fff;
+    --icon_border_bg: #232324;
+    --webBgColor: #3b3b3b;;
+}
